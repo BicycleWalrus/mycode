@@ -1,0 +1,434 @@
+{
+  "metadata": {
+    "title": "Maryland Quiz Source Dataset",
+    "description": "A beginner-friendly Maryland facts dataset for generating flash card and quiz questions.",
+    "created_on": "2026-04-14",
+    "intended_use": [
+      "flash cards",
+      "multiple choice questions",
+      "short answer questions",
+      "true/false questions"
+    ],
+    "difficulty_levels": ["easy", "medium", "hard"],
+    "notes": [
+      "Facts are written in a simple format for beginner-friendly Python quiz apps.",
+      "Some facts support direct question generation.",
+      "Some facts include aliases to accept alternate user answers.",
+      "Maryland no longer has an official state song as of 2021-07-01."
+    ]
+  },
+  "facts": [
+    {
+      "id": "md-capital",
+      "category": "government",
+      "difficulty": "easy",
+      "fact": "The capital city of Maryland is Annapolis.",
+      "question_templates": [
+        "What is the capital city of Maryland?",
+        "Which city is the capital of Maryland?"
+      ],
+      "answer": "Annapolis",
+      "aliases": []
+    },
+    {
+      "id": "md-nickname",
+      "category": "identity",
+      "difficulty": "easy",
+      "fact": "Maryland is known as the Old Line State.",
+      "question_templates": [
+        "What is the nickname of Maryland?",
+        "Maryland is known by what nickname?"
+      ],
+      "answer": "Old Line State",
+      "aliases": ["The Old Line State"]
+    },
+    {
+      "id": "md-bay",
+      "category": "geography",
+      "difficulty": "easy",
+      "fact": "The Chesapeake Bay is the large body of water that runs through Maryland.",
+      "question_templates": [
+        "What large body of water sits in the middle of Maryland?",
+        "What major bay is closely associated with Maryland?"
+      ],
+      "answer": "Chesapeake Bay",
+      "aliases": []
+    },
+    {
+      "id": "md-state-bird",
+      "category": "state symbol",
+      "difficulty": "easy",
+      "fact": "The state bird of Maryland is the Baltimore Oriole.",
+      "question_templates": [
+        "What is the state bird of Maryland?",
+        "Which bird is the official state bird of Maryland?"
+      ],
+      "answer": "Baltimore Oriole",
+      "aliases": ["Oriole"]
+    },
+    {
+      "id": "md-state-flower",
+      "category": "state symbol",
+      "difficulty": "easy",
+      "fact": "The state flower of Maryland is the Black-Eyed Susan.",
+      "question_templates": [
+        "What is the state flower of Maryland?",
+        "Which flower is Maryland's official state flower?"
+      ],
+      "answer": "Black-Eyed Susan",
+      "aliases": ["Black Eyed Susan"]
+    },
+    {
+      "id": "md-famous-city",
+      "category": "cities",
+      "difficulty": "easy",
+      "fact": "Baltimore is the Maryland city known for the Inner Harbor and the USS Constellation.",
+      "question_templates": [
+        "What city in Maryland is home to the Inner Harbor and the USS Constellation?",
+        "Which Maryland city is famous for the Inner Harbor?"
+      ],
+      "answer": "Baltimore",
+      "aliases": []
+    },
+    {
+      "id": "md-seafood",
+      "category": "food",
+      "difficulty": "easy",
+      "fact": "Maryland is especially famous for blue crabs.",
+      "question_templates": [
+        "What seafood is Maryland most famous for?",
+        "What crab is Maryland especially known for?"
+      ],
+      "answer": "Blue Crab",
+      "aliases": ["Maryland Blue Crab", "Blue Crabs"]
+    },
+    {
+      "id": "md-seasoning",
+      "category": "food",
+      "difficulty": "easy",
+      "fact": "Old Bay is the famous seasoning blend often used on Maryland crabs.",
+      "question_templates": [
+        "What famous spice blend is used on Maryland crabs?",
+        "What seasoning is strongly associated with Maryland crabs?"
+      ],
+      "answer": "Old Bay",
+      "aliases": ["Old Bay Seasoning"]
+    },
+    {
+      "id": "md-state-sport",
+      "category": "state symbol",
+      "difficulty": "easy",
+      "fact": "The official state sport of Maryland is jousting.",
+      "question_templates": [
+        "What is the state sport of Maryland?",
+        "Which sport is officially recognized as the state sport of Maryland?"
+      ],
+      "answer": "Jousting",
+      "aliases": []
+    },
+    {
+      "id": "md-state-crustacean",
+      "category": "state symbol",
+      "difficulty": "easy",
+      "fact": "The official state crustacean of Maryland is the blue crab.",
+      "question_templates": [
+        "What is the state crustacean of Maryland?",
+        "Which crustacean is an official Maryland state symbol?"
+      ],
+      "answer": "Blue Crab",
+      "aliases": ["Maryland Blue Crab"]
+    },
+    {
+      "id": "md-state-dog",
+      "category": "state symbol",
+      "difficulty": "easy",
+      "fact": "The official state dog of Maryland is the Chesapeake Bay Retriever.",
+      "question_templates": [
+        "What is the state dog of Maryland?",
+        "Which dog breed is the official state dog of Maryland?"
+      ],
+      "answer": "Chesapeake Bay Retriever",
+      "aliases": ["Chessie"]
+    },
+    {
+      "id": "md-state-tree",
+      "category": "state symbol",
+      "difficulty": "easy",
+      "fact": "The official state tree of Maryland is the White Oak.",
+      "question_templates": [
+        "What is the state tree of Maryland?",
+        "Which tree is Maryland's official state tree?"
+      ],
+      "answer": "White Oak",
+      "aliases": []
+    },
+    {
+      "id": "md-state-fish",
+      "category": "state symbol",
+      "difficulty": "easy",
+      "fact": "The official state fish of Maryland is the Rockfish.",
+      "question_templates": [
+        "What is the state fish of Maryland?",
+        "Which fish is Maryland's official state fish?"
+      ],
+      "answer": "Rockfish",
+      "aliases": ["Striped Bass"]
+    },
+    {
+      "id": "md-state-reptile",
+      "category": "state symbol",
+      "difficulty": "medium",
+      "fact": "The official state reptile of Maryland is the Diamondback Terrapin.",
+      "question_templates": [
+        "What is the state reptile of Maryland?",
+        "Which reptile is an official symbol of Maryland?"
+      ],
+      "answer": "Diamondback Terrapin",
+      "aliases": ["Terrapin"]
+    },
+    {
+      "id": "md-state-insect",
+      "category": "state symbol",
+      "difficulty": "medium",
+      "fact": "The official state insect of Maryland is the Baltimore Checkerspot Butterfly.",
+      "question_templates": [
+        "What is the state insect of Maryland?",
+        "Which butterfly is Maryland's official state insect?"
+      ],
+      "answer": "Baltimore Checkerspot Butterfly",
+      "aliases": ["Baltimore Checkerspot"]
+    },
+    {
+      "id": "md-state-boat",
+      "category": "state symbol",
+      "difficulty": "medium",
+      "fact": "The official state boat of Maryland is the Skipjack.",
+      "question_templates": [
+        "What is the state boat of Maryland?",
+        "Which boat is an official symbol of Maryland?"
+      ],
+      "answer": "Skipjack",
+      "aliases": []
+    },
+    {
+      "id": "md-state-horse",
+      "category": "state symbol",
+      "difficulty": "medium",
+      "fact": "The official state horse of Maryland is the Thoroughbred racehorse.",
+      "question_templates": [
+        "What is the state horse of Maryland?",
+        "Which horse is Maryland's official state horse?"
+      ],
+      "answer": "Thoroughbred Racehorse",
+      "aliases": ["Thoroughbred"]
+    },
+    {
+      "id": "md-state-cat",
+      "category": "state symbol",
+      "difficulty": "medium",
+      "fact": "The official state cat of Maryland is the Calico Cat.",
+      "question_templates": [
+        "What is the state cat of Maryland?",
+        "Which cat is an official symbol of Maryland?"
+      ],
+      "answer": "Calico Cat",
+      "aliases": ["Calico"]
+    },
+    {
+      "id": "md-state-dinosaur",
+      "category": "state symbol",
+      "difficulty": "hard",
+      "fact": "The official state dinosaur of Maryland is Astrodon johnstoni.",
+      "question_templates": [
+        "What is the state dinosaur of Maryland?",
+        "Which dinosaur is an official symbol of Maryland?"
+      ],
+      "answer": "Astrodon johnstoni",
+      "aliases": ["Astrodon"]
+    },
+    {
+      "id": "md-state-flag-colors",
+      "category": "identity",
+      "difficulty": "medium",
+      "fact": "The Maryland flag is based on the heraldic colors of the Calvert and Crossland families.",
+      "question_templates": [
+        "Maryland's state flag is based on the colors of which two families?",
+        "Which family names are represented in the Maryland flag?"
+      ],
+      "answer": "Calvert and Crossland",
+      "aliases": ["Calvert family and Crossland family"]
+    },
+    {
+      "id": "md-largest-city",
+      "category": "cities",
+      "difficulty": "easy",
+      "fact": "Baltimore is the largest city in Maryland.",
+      "question_templates": [
+        "What is the largest city in Maryland?",
+        "Which city is the largest in Maryland?"
+      ],
+      "answer": "Baltimore",
+      "aliases": []
+    },
+    {
+      "id": "md-statehouse-city",
+      "category": "government",
+      "difficulty": "easy",
+      "fact": "The Maryland State House is located in Annapolis.",
+      "question_templates": [
+        "In what city is the Maryland State House located?",
+        "Where can you find the Maryland State House?"
+      ],
+      "answer": "Annapolis",
+      "aliases": []
+    },
+    {
+      "id": "md-statehouse-fact",
+      "category": "history",
+      "difficulty": "medium",
+      "fact": "The Maryland State House is the oldest state capitol in continuous legislative use in the United States.",
+      "question_templates": [
+        "What special distinction does the Maryland State House have?",
+        "Why is the Maryland State House historically important?"
+      ],
+      "answer": "It is the oldest state capitol in continuous legislative use in the United States.",
+      "aliases": ["Oldest state capitol in continuous legislative use"]
+    },
+    {
+      "id": "md-national-capitol-fact",
+      "category": "history",
+      "difficulty": "medium",
+      "fact": "The Maryland State House is the only state house that ever served as the nation's capitol.",
+      "question_templates": [
+        "What is unique about the Maryland State House in U.S. history?",
+        "Which state house once served as the nation's capitol?"
+      ],
+      "answer": "The Maryland State House",
+      "aliases": ["Maryland State House in Annapolis"]
+    },
+    {
+      "id": "md-usna",
+      "category": "education",
+      "difficulty": "easy",
+      "fact": "The U.S. Naval Academy is located in Annapolis, Maryland.",
+      "question_templates": [
+        "What famous military academy is located in Annapolis?",
+        "Where is the U.S. Naval Academy located in Maryland?"
+      ],
+      "answer": "U.S. Naval Academy",
+      "aliases": ["United States Naval Academy", "Naval Academy"]
+    },
+    {
+      "id": "md-ratification",
+      "category": "history",
+      "difficulty": "medium",
+      "fact": "Maryland became the seventh state to ratify the U.S. Constitution on April 28, 1788.",
+      "question_templates": [
+        "When did Maryland ratify the U.S. Constitution?",
+        "What number state was Maryland to ratify the U.S. Constitution?"
+      ],
+      "answer": "April 28, 1788",
+      "aliases": ["1788-04-28", "Seventh state"]
+    },
+    {
+      "id": "md-first-seat",
+      "category": "history",
+      "difficulty": "medium",
+      "fact": "Before Annapolis, St. Mary's City was the first seat of Maryland's colonial government.",
+      "question_templates": [
+        "What was Maryland's first colonial capital?",
+        "Before Annapolis, what was the first seat of Maryland's colonial government?"
+      ],
+      "answer": "St. Mary's City",
+      "aliases": ["Saint Mary's City"]
+    },
+    {
+      "id": "md-border-virginia",
+      "category": "geography",
+      "difficulty": "easy",
+      "fact": "Maryland shares a border with Virginia.",
+      "question_templates": [
+        "Which southern state borders Maryland?",
+        "Maryland shares a border with what state to the south?"
+      ],
+      "answer": "Virginia",
+      "aliases": []
+    },
+    {
+      "id": "md-border-west-virginia",
+      "category": "geography",
+      "difficulty": "easy",
+      "fact": "Maryland shares a border with West Virginia.",
+      "question_templates": [
+        "Maryland shares its western border with which state?",
+        "Which state borders Maryland to the west?"
+      ],
+      "answer": "West Virginia",
+      "aliases": []
+    },
+    {
+      "id": "md-border-pennsylvania",
+      "category": "geography",
+      "difficulty": "easy",
+      "fact": "Maryland shares a border with Pennsylvania to the north.",
+      "question_templates": [
+        "Which state borders Maryland to the north?",
+        "Maryland shares its northern border with which state?"
+      ],
+      "answer": "Pennsylvania",
+      "aliases": []
+    },
+    {
+      "id": "md-border-delaware",
+      "category": "geography",
+      "difficulty": "easy",
+      "fact": "Maryland shares a border with Delaware.",
+      "question_templates": [
+        "Which small state borders Maryland to the east?",
+        "Maryland shares a border with which state on the Delmarva Peninsula?"
+      ],
+      "answer": "Delaware",
+      "aliases": []
+    },
+    {
+      "id": "md-waterman-culture",
+      "category": "culture",
+      "difficulty": "medium",
+      "fact": "Working on the Chesapeake Bay as a waterman is an important part of Maryland culture.",
+      "question_templates": [
+        "What bay-related job is an important part of Maryland culture?",
+        "What traditional Chesapeake Bay occupation is strongly associated with Maryland?"
+      ],
+      "answer": "Waterman",
+      "aliases": ["Watermen"]
+    },
+    {
+      "id": "md-song-status",
+      "category": "history",
+      "difficulty": "medium",
+      "fact": "Maryland no longer has an official state song. The former song was repealed on July 1, 2021.",
+      "question_templates": [
+        "Does Maryland currently have an official state song?",
+        "What happened to Maryland's former state song in 2021?"
+      ],
+      "answer": "No official state song",
+      "aliases": [
+        "No",
+        "It was repealed",
+        "Maryland no longer has one"
+      ]
+    },
+    {
+      "id": "md-former-song",
+      "category": "history",
+      "difficulty": "hard",
+      "fact": "Maryland's former state song was 'Maryland, My Maryland.'",
+      "question_templates": [
+        "What was Maryland's former state song?",
+        "Before it was repealed, what was Maryland's state song called?"
+      ],
+      "answer": "Maryland, My Maryland",
+      "aliases": []
+    }
+  ]
+}
